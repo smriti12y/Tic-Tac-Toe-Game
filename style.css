@@ -32,6 +32,15 @@ body{
     border: none;
     box-sizing: 0 0 1rem rgba(0,0,0,0.1);
     font-size: 8vmin;
-    color:#b0413e ;
+    color:#270605 ;
+    background-color: dimgray;
 
+}
+#reset{
+    padding: 1rem ;
+    font-size: 1.35rem;
+    background-color: rgb(39, 37, 37);
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
 }
