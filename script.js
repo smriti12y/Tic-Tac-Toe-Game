@@ -1,6 +1,7 @@
 let boxes =document.querySelectorAll(".box");
 let resetBtn = document.querySelectorAll("#reset");
 
+
 let turnO = true;
 
 const winPatterns =[
@@ -32,6 +33,8 @@ boxes.forEach((box) => {
         
         });
     });
+    
+    
 
 
         const checkWinner=() =>{
@@ -44,6 +47,7 @@ boxes.forEach((box) => {
                  if(pos1Val !="" &&pos2Val!="" && pos3Val!=""){
                     if(pos1Val===pos2Val&& pos2Val===pos3Val){
                         console.log("winner",pos1Val);
+                        
                     }
                  }
                 
