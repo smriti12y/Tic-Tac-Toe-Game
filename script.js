@@ -20,6 +20,7 @@ const winPatterns = [
 const showWinner = (winner) => {
     msggg.innerText = `congratulations, Winner is ${winner}`;
     msgContainer.classList.remove("hide");
+    disableBoxes();
 };
 
 const checkWinner = () => {
@@ -53,6 +54,13 @@ boxes.forEach((box) => {
         checkWinner();
     });
 });
+
+const disableBoxes= () =>{
+    for (let box of boxes){
+        box.disabled= true;
+
+    }
+}
 
    
 
