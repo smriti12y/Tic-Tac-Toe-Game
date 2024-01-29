@@ -44,22 +44,22 @@ body{
     border-radius: 1rem;
     border: none;
 }
-#newg{
+#newgg{
     padding: 1rem;
     font-size: 1.25rem;
-    background-color: rgb(39, 37, 37); 
-    color: #b51212;
+    background-color: rgb(39, 38, 38); 
+    color: #878383;
     border-radius: 1rem;
     border: none;
 
 }
-#msg{
+#msggg{
     color:#270605 ;
     font-size: 8vmin;
 }
 .msg-container{
-    height: 30vmin;
+    height: 25vmin;
 }
 .hide{
     display: none;
-}
+} 
